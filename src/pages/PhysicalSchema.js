@@ -5,6 +5,7 @@ import SearchBar from "../components/SearchBar";
 import CustomTabs from "../components/CustomTabs";
 import HomeCard from "./HomeCard";
 import SubHeader from "../components/SubHeader";
+import PhysicalSchemaCard from "./PhysicalSchemaCard";
 
 export default function PhysicalSchema() {
     const tabsData= ["Party", "Accounts"];
@@ -75,7 +76,7 @@ export default function PhysicalSchema() {
                 <Grid item xs={12} lg={12} md={12} sx={{
                     borderRadius: '5px',
                 }}>
-                    <HomeCard></HomeCard>
+                    <PhysicalSchemaCard></PhysicalSchemaCard>
                 </Grid>
             </Grid>
         </>
