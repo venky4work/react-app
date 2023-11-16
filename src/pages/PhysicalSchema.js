@@ -3,9 +3,8 @@ import qr from "../assets/qr.jpg";
 import "./PhysicalSchema.css"
 import SearchBar from "../components/SearchBar";
 import CustomTabs from "../components/CustomTabs";
-import HomeCard from "./HomeCard";
 import SubHeader from "../components/SubHeader";
-import PhysicalSchemaCard from "./PhysicalSchemaCard";
+import PhysicalSchemaCard from "../components/PhysicalSchemaCard";
 
 export default function PhysicalSchema() {
     const tabsData= ["Party", "Accounts"];
