@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import Header from "../components/Header";
 import qr from "../assets/qr.jpg";
-import "./Home.css"
+import "./Home.css";
 import SearchBar from "../components/SearchBar";
 import CustomTabs from "../components/CustomTabs";
 import HomeCard from "./HomeCard";

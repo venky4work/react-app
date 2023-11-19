@@ -5,9 +5,10 @@ import SearchBar from "../components/SearchBar";
 import CustomTabs from "../components/CustomTabs";
 import SubHeader from "../components/SubHeader";
 import PhysicalSchemaCard from "../components/PhysicalSchemaCard";
+import FilterTab from "../components/FilterTab";
 
 export default function PhysicalSchema() {
-    const tabsData= ["Party", "Accounts"];
+    const tabsData= ["Dash board", "Add new UseCase"];
     return (
         <>
             <SubHeader></SubHeader>
@@ -57,13 +58,11 @@ export default function PhysicalSchema() {
                 marginLeft: 8,
                 width: '90%',
             }}>
-                <Grid item xs={12} lg={6} md={6}>
+                <Grid item xs={12} lg={6} md={4}>
                     <SearchBar></SearchBar>
                 </Grid>
-                <Grid item xs={12} lg={6} md={6}>
-                    <Typography variant="h6" className="cssFont2">
-                        Data
-                    </Typography>
+                <Grid item xs={12} lg={6} md={8}>
+                    <FilterTab></FilterTab>
                 </Grid>
             </Grid>
 
@@ -72,6 +71,16 @@ export default function PhysicalSchema() {
                 marginLeft: 8,
                 width: '90%',
             }}>
+                <Grid item xs={12} lg={12} md={12} sx={{
+                    borderRadius: '5px',
+                }}>
+                    <PhysicalSchemaCard></PhysicalSchemaCard>
+                </Grid>
+                <Grid item xs={12} lg={12} md={12} sx={{
+                    borderRadius: '5px',
+                }}>
+                    <PhysicalSchemaCard></PhysicalSchemaCard>
+                </Grid>
                 <Grid item xs={12} lg={12} md={12} sx={{
                     borderRadius: '5px',
                 }}>

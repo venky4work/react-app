@@ -10,7 +10,6 @@ import { Box, Checkbox, Divider, FormControlLabel, Grid, IconButton, Typography 
 import PhysicalSchemaTable from './PhysicalSchemaTable';
 import StorageIcon from '@mui/icons-material/Storage';
 import CheckBoxOutlinedIcon from '@mui/icons-material/CheckBoxOutlined';
-import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
 
 const options = [
   'None',
